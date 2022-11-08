@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home__bg {
+  background-image: url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJpZW5kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=560');
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.login__bg {
+  background-image: url('https://images.unsplash.com/photo-1529539795054-3c162aab037a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9naW58ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=560');
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.signup__bg {
+  background-image: url('https://images.unsplash.com/photo-1516542076529-1ea3854896f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=560');
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.signup-profile-pic__container {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.signup-profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  object-fit: cover;
+  height: 100px;
+}
+
+.add-picture-icon {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  color: green;
+  background: white;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+}
